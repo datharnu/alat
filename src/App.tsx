@@ -205,9 +205,10 @@ export default function App() {
           </div>
         </div>
 
-        {/* large screen Footer */}
-        <article>
-          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-16 md:mt-36 sm:mt-10 flex justify-between lg:mx-48 font-thin">
+        {/*  Footer */}
+
+        <article className="flex items-center justify-center">
+          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-16 md:mt-36 sm:mt-10 flex sm:justify-between md:justify-between lg:justify-center gap-44  font-light lg:absolute lg:bottom-20 ">
             <p>help@alat.ng</p>
             <p>070022552528</p>
           </div>
