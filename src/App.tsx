@@ -115,13 +115,13 @@ export default function App() {
         </div>
       </article>
 
-      <article className="lg:w-[45%] md:w-[60%] sm:w-[115%] ">
+      <article className="lg:w-[45%] md:w-[60%] sm:w-[115%]  ">
         {/* Title */}
         <div className="text-center my-20  ">
           <h1 className="text-primary sm:text-lg ">Go to ALAT Website</h1>
         </div>
 
-        <div className="flex items-center justify-center lg:h-[60%] md:h-[50%]">
+        <div className="flex items-center justify-center lg:h-[60%] md:h-[50%] ">
           <div className="flex flex-col items-center gap-7 sm:mx-10">
             {/* Logo */}
             <article className="flex gap-5 mt-16 -ml-36 sm:-mt-2 ">
@@ -208,7 +208,7 @@ export default function App() {
         {/*  Footer */}
 
         <article className="flex items-center justify-center">
-          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-16 md:mt-36 sm:mt-10 flex sm:justify-between md:justify-between lg:justify-center gap-44  font-light lg:absolute lg:bottom-20 md:absolute md:bottom-20 ">
+          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-16 md:mt-36 sm:mt-10 flex sm:justify-between md:justify-between lg:justify-center gap-44  font-light lg:absolute lg:bottom-20 md:absolute  ">
             <p>help@alat.ng</p>
             <p>070022552528</p>
           </div>
