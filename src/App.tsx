@@ -115,7 +115,7 @@ export default function App() {
         </div>
       </article>
 
-      <article className="lg:w-[45%] md:w-[60%]  ">
+      <article className="  ">
         {/* Title */}
         <div className="text-center my-20">
           <h1 className="text-primary sm:text-lg ">Go to ALAT Website</h1>
@@ -187,10 +187,10 @@ export default function App() {
               />
             </div>
             {/* Login Button */}
-            <div className="cursor-pointer text-white text-sm ">
+            <div className="cursor-pointer text-white text-sm  ">
               <button
                 type="submit"
-                className="rounded-[3px] sm:text-lg font-thin bg-primary px-44 py-3 shadow-textS shadow-sm"
+                className="rounded-[3px] sm:text-lg font-thin bg-primary px-[10.7rem] text-center py-3 shadow-textS shadow-sm"
               >
                 Login
               </button>
