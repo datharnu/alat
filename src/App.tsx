@@ -115,7 +115,7 @@ export default function App() {
         </div>
       </article>
 
-      <article className="  ">
+      <article className="lg:w-[45%]  ">
         {/* Title */}
         <div className="text-center my-20">
           <h1 className="text-primary sm:text-lg ">Go to ALAT Website</h1>
