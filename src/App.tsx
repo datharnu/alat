@@ -118,7 +118,7 @@ export default function App() {
       <article className="lg:w-[45%] md:w-[60%]  ">
         {/* Title */}
         <div className="text-center my-20">
-          <h1 className="text-primary ">Go to ALAT Website</h1>
+          <h1 className="text-primary sm:text-lg ">Go to ALAT Website</h1>
         </div>
 
         <div className="flex flex-col items-center justify-center gap-7 sm:mx-10 ">
@@ -129,7 +129,9 @@ export default function App() {
               <img src={AlatLogo} className="w-12" />
             </div>
             <div className="relative top-4">
-              <h1 className="text-textS text-sm ">Licensed by the CBN</h1>
+              <h1 className="text-textS text-sm sm:text-lg ">
+                Licensed by the CBN
+              </h1>
             </div>
             <div className="relative top-3 -left-3">
               <img src={Cbn} className="w-6" />
@@ -138,14 +140,14 @@ export default function App() {
 
           {/* Form */}
           <div className="">
-            <h1 className=" text-xl -ml-48">Welcome Back!</h1>
+            <h1 className=" text-xl sm:text-2xl -ml-48">Welcome Back!</h1>
             {/* <hr className="mr-[70rem] relative border-primary border-2" /> */}
           </div>
           {/* Form */}
           <form onSubmit={handleSubmit} className="space-y-8">
             {/* Username Input */}
             <div className="space-y-3">
-              <div className="text-sm text-textS font-light">
+              <div className="text-sm sm:text-lg text-textS font-light">
                 <label htmlFor="username">Email Address/Username</label>
               </div>
               <input
@@ -168,7 +170,7 @@ export default function App() {
             </div>
             {/* Password */}
             <div className="space-y-3 font-light">
-              <div className=" text-sm flex justify-between">
+              <div className=" text-sm sm:text-lg flex justify-between">
                 <label htmlFor="password" className="text-textS">
                   Password
                 </label>
@@ -188,7 +190,7 @@ export default function App() {
             <div className="cursor-pointer text-white text-sm ">
               <button
                 type="submit"
-                className="rounded-[3px] font-thin bg-primary px-44 py-3 shadow-textS shadow-sm"
+                className="rounded-[3px] sm:text-lg font-thin bg-primary px-44 py-3 shadow-textS shadow-sm"
               >
                 Login
               </button>
@@ -197,13 +199,13 @@ export default function App() {
           {/* Footer */}
           <article>
             <div className="mt-2 text-center">
-              <p className="text-sm  font-thin">
+              <p className="text-sm sm:text-lg  font-thin">
                 New to ALAT?
                 <span className="text-primary font-normal">Sign up</span>
               </p>
             </div>
 
-            <div className=" text-primary lg:mt-40 sm:mt-10 sm:flex sm:gap-44 flex justify-between">
+            <div className=" text-primary sm:text-lg lg:mt-40 sm:mt-10 sm:flex sm:gap-44 flex justify-between">
               <p>help@alat.ng</p>
               <p>070022552528</p>
             </div>
