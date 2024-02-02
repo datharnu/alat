@@ -39,8 +39,8 @@ export default function App() {
   };
 
   return (
-    <section className="flex flex-col-reverse md:flex-row lg:flex-row justify-center ">
-      <article className="lg:w-[55%] md:w-[45%] sm:w-full sm:hidden">
+    <section className="flex  ">
+      <article className="lg:w-[55%] md:w-[45%] sm:w-full">
         <div className="bg-bgImg h-screen relative bg-cover flex items-center justify-center">
           <div className="text-white  text-left absolute bottom-20">
             {/* Talk to Us */}
