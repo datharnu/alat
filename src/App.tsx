@@ -208,7 +208,7 @@ export default function App() {
         {/*  Footer */}
 
         <article className="flex items-center justify-center">
-          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-16 md:mt-36 sm:mt-10 flex sm:justify-between md:justify-between lg:justify-center gap-44  font-light lg:absolute lg:bottom-20 ">
+          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-16 md:mt-36 sm:mt-10 flex sm:justify-between md:justify-between lg:justify-center gap-44  font-light absolute bottom-20 ">
             <p>help@alat.ng</p>
             <p>070022552528</p>
           </div>
