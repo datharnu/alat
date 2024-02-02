@@ -121,7 +121,7 @@ export default function App() {
           <h1 className="text-primary sm:text-lg ">Go to ALAT Website</h1>
         </div>
 
-        <div className="flex items-center justify-center lg:h-[70%] md:h-[70%]">
+        <div className="flex items-center justify-center lg:h-[60%] md:h-[50%]">
           <div className="flex flex-col items-center gap-7 sm:mx-10">
             {/* Logo */}
             <article className="flex gap-5 mt-16 -ml-36 sm:-mt-2 ">
@@ -207,7 +207,7 @@ export default function App() {
 
         {/* large screen Footer */}
         <article>
-          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-40 md:mt-36 sm:mt-10 flex justify-between lg:mx-10">
+          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-16 md:mt-36 sm:mt-10 flex justify-between lg:mx-48 font-thin">
             <p>help@alat.ng</p>
             <p>070022552528</p>
           </div>
