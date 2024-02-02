@@ -5,8 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bgImg': 'url(/Loginbanner.png)',
+      },
+      colors: {
+        primary: "#ab2656;",
+        textS: "#757575",
+      },
+    },
   },
   plugins: [],
-}
-
+};
