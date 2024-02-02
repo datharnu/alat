@@ -40,7 +40,7 @@ export default function App() {
 
   return (
     <section className="lg:flex md:flex sm:flex-col-reverse sm:flex">
-      <article className="lg:w-[55%] md:w-[45%] sm:hidden ">
+      <article className="lg:w-[55%] md:w-[45%] sm:hidden">
         <div className="bg-bgImg h-screen relative bg-cover flex items-center justify-center">
           <div className="text-white  text-left absolute bottom-20">
             {/* Talk to Us */}
@@ -115,7 +115,7 @@ export default function App() {
         </div>
       </article>
 
-      <article className="lg:w-[45%] md:w-[60%]  ">
+      <article className="lg:w-[45%] md:w-[60%] sm:w-[115%] ">
         {/* Title */}
         <div className="text-center my-20  ">
           <h1 className="text-primary sm:text-lg ">Go to ALAT Website</h1>
