@@ -115,102 +115,103 @@ export default function App() {
         </div>
       </article>
 
-      <article className="lg:w-[45%]  ">
+      <article className="lg:w-[45%] md:w-[60%]  ">
         {/* Title */}
-        <div className="text-center my-20">
+        <div className="text-center my-20  ">
           <h1 className="text-primary sm:text-lg ">Go to ALAT Website</h1>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-7 sm:mx-10 ">
-          {/* Logo */}
-
-          <article className="flex gap-5 mt-16 -ml-36 sm:-mt-2 ">
-            <div>
-              <img src={AlatLogo} className="w-12" />
-            </div>
-            <div className="relative top-4">
-              <h1 className="text-textS text-sm sm:text-lg ">
-                Licensed by the CBN
-              </h1>
-            </div>
-            <div className="relative top-3 -left-3">
-              <img src={Cbn} className="w-6" />
-            </div>
-          </article>
-
-          {/* Form */}
-          <div className="">
-            <h1 className=" text-xl sm:text-2xl -ml-48">Welcome Back!</h1>
-            {/* <hr className="mr-[70rem] relative border-primary border-2" /> */}
-          </div>
-          {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-8">
-            {/* Username Input */}
-            <div className="space-y-3">
-              <div className="text-sm sm:text-lg text-textS font-light">
-                <label htmlFor="username">Email Address/Username</label>
+        <div className="flex items-center justify-center lg:h-[70%] md:h-[70%]">
+          <div className="flex flex-col items-center gap-7 sm:mx-10">
+            {/* Logo */}
+            <article className="flex gap-5 mt-16 -ml-36 sm:-mt-2 ">
+              <div>
+                <img src={AlatLogo} className="w-12" />
               </div>
-              <input
-                type="text"
-                id="username"
-                name="username"
-                value={formData.username}
-                onChange={handleChange}
-                required
-                className={`border-[1px] rounded-sm focus:outline-none focus:ring-1 focus:bg-gray-100 focus:invalid:ring-gray-400 pr-[13rem] py-2 
+              <div className="relative top-4">
+                <h1 className="text-textS text-sm sm:text-lg ">
+                  Licensed by the CBN
+                </h1>
+              </div>
+              <div className="relative top-3 -left-3">
+                <img src={Cbn} className="w-6" />
+              </div>
+            </article>
+
+            {/* Form */}
+            <div className="">
+              <h1 className=" text-xl sm:text-2xl -ml-48">Welcome Back!</h1>
+              {/* <hr className="mr-[70rem] relative border-primary border-2" /> */}
+            </div>
+            {/* Form */}
+            <form onSubmit={handleSubmit} className="space-y-8">
+              {/* Username Input */}
+              <div className="space-y-3">
+                <div className="text-sm sm:text-lg text-textS font-light">
+                  <label htmlFor="username">Email Address/Username</label>
+                </div>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  value={formData.username}
+                  onChange={handleChange}
+                  required
+                  className={`border-[1px] rounded-sm focus:outline-none focus:ring-1 focus:bg-gray-100 focus:invalid:ring-gray-400 pr-[13rem] py-2 
             ${!isUsernameValid ? "border-primary" : ""}
           `}
-                style={{ textAlign: "left" }}
-              />
-              {/* {!isUsernameValid && (
-              <p className="text-primary text-xs mt-1">
-                Please provide a valid email address
-              </p>
-            )} */}
-            </div>
-            {/* Password */}
-            <div className="space-y-3 font-light">
-              <div className=" text-sm sm:text-lg flex justify-between">
-                <label htmlFor="password" className="text-textS">
-                  Password
-                </label>
-                <label className="text-primary">Forgot password?</label>
+                  style={{ textAlign: "left" }}
+                />
+                {/* {!isUsernameValid && (
+          <p className="text-primary text-xs mt-1">
+            Please provide a valid email address
+          </p>
+        )} */}
               </div>
-              <input
-                type="password"
-                id="password"
-                name="password"
-                value={formData.password}
-                onChange={handleChange}
-                required
-                className={`border-[1px] rounded-sm focus:outline-none focus:ring-1 focus:bg-gray-100 focus:invalid:ring-gray-400 pr-[13rem] py-2`}
-              />
-            </div>
-            {/* Login Button */}
-            <div className="cursor-pointer rounded-[3px] text-center text-white text-sm  bg-primary  px-[10.7rem] shadow-textS  ">
-              <button
-                type="submit"
-                className=" sm:text-lg font-thin  py-3 shadow-sm"
-              >
-                Login
-              </button>
-            </div>
-          </form>
-          {/* Footer */}
-          <article>
+              {/* Password */}
+              <div className="space-y-3 font-light">
+                <div className=" text-sm sm:text-lg flex justify-between">
+                  <label htmlFor="password" className="text-textS">
+                    Password
+                  </label>
+                  <label className="text-primary">Forgot password?</label>
+                </div>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  value={formData.password}
+                  onChange={handleChange}
+                  required
+                  className={`border-[1px] rounded-sm focus:outline-none focus:ring-1 focus:bg-gray-100 focus:invalid:ring-gray-400 pr-[13rem] py-2`}
+                />
+              </div>
+              {/* Login Button */}
+              <div className="cursor-pointer rounded-[3px] text-center text-white text-sm bg-primary px-[10.7rem] shadow-textS">
+                <button
+                  type="submit"
+                  className="sm:text-lg font-thin py-3 shadow-sm"
+                >
+                  Login
+                </button>
+              </div>
+            </form>
             <div className="mt-2 text-center">
               <p className="text-sm sm:text-lg  font-thin">
                 New to ALAT?
                 <span className="text-primary font-normal">Sign up</span>
               </p>
             </div>
-
-            <div className=" text-primary sm:text-lg lg:mt-40 sm:mt-10 sm:flex sm:gap-44 flex justify-between">
-              <p>help@alat.ng</p>
-              <p>070022552528</p>
-            </div>
-          </article>
+          </div>
         </div>
+
+        {/* large screen Footer */}
+        <article>
+          <div className=" text-primary sm:text-lg sm:mx-12 md:mx-10 lg:mt-40 md:mt-36 sm:mt-10 flex justify-between lg:mx-10">
+            <p>help@alat.ng</p>
+            <p>070022552528</p>
+          </div>
+        </article>
       </article>
     </section>
   );
