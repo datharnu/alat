@@ -187,10 +187,10 @@ export default function App() {
               />
             </div>
             {/* Login Button */}
-            <div className="cursor-pointer text-white text-sm  ">
+            <div className="cursor-pointer rounded-[3px] text-white text-sm  bg-primary  px-[10.7rem] shadow-textS  ">
               <button
                 type="submit"
-                className="rounded-[3px] sm:text-lg font-thin bg-primary px-[10.7rem] text-center py-3 shadow-textS shadow-sm"
+                className=" sm:text-lg font-thin text-center py-3 shadow-sm"
               >
                 Login
               </button>
