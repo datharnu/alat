@@ -115,16 +115,16 @@ export default function App() {
         </div>
       </article>
 
-      <article className="lg:w-[45%] md:w-[60%] sm:px-5 ">
+      <article className="lg:w-[45%] md:w-[60%]  ">
         {/* Title */}
         <div className="text-center my-20">
           <h1 className="text-primary ">Go to ALAT Website</h1>
         </div>
 
-        <div className="flex flex-col items-center justify-center gap-7 ">
+        <div className="flex flex-col items-center justify-center gap-7 sm:mx-10 ">
           {/* Logo */}
 
-          <article className="flex gap-5 mt-16 -ml-36 ">
+          <article className="flex gap-5 mt-16 -ml-36 sm:-mt-2 ">
             <div>
               <img src={AlatLogo} className="w-12" />
             </div>
@@ -203,7 +203,7 @@ export default function App() {
               </p>
             </div>
 
-            <div className=" text-primary mt-40 flex justify-between">
+            <div className=" text-primary lg:mt-40 sm:mt-10 sm:flex sm:gap-44 flex justify-between">
               <p>help@alat.ng</p>
               <p>070022552528</p>
             </div>
